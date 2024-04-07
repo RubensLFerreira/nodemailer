@@ -1,0 +1,21 @@
+{
+  "name": "nodemailer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RubensLFerreira/nodemailer.git",
+  "author": "RubensLFerreira <rubenslima000@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node --watch dist/index.js"
+  },
+  "dependencies": {
+    "@types/nodemailer": "^6.4.14",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.4.4"
+  }
+}
